@@ -13,18 +13,15 @@
         <link href="../libs/assets/startbootstrap-personal-gh-pages/css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
-        <main class="flex-shrink-0">
-            <div id="site-navbar"></div>
+        <header id="site-header" class="sticky-top"></header>
 
+        <main class="flex-shrink-0">
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
                     <h1 class="display-5 fw-bolder mb-3"><span class="text-gradient d-inline">Jade Anthony T. Nobles</span></h1>
                     <div class="d-flex flex-column flex-md-row justify-content-center gap-2 gap-md-4 text-muted">
                         <span><i class="bi bi-geo-alt me-2"></i>3185 Diezmo Rd. Pulo, Cabuyao, Laguna</span>
                         <span><i class="bi bi-phone me-2"></i>+639672991989</span>
-                        <a class="text-muted" href="https://mail.google.com/mail/?view=cm&fs=1&to=jadeanthonynobles12@gmail.com" target="_blank">
-                            <i class="bi bi-envelope me-2"></i>jadeanthonynobles12@gmail.com
-                        </a>
                     </div>
                 </div>
 
@@ -100,7 +97,6 @@
                                 </div>
                             </div>
                         </section>
-
                         <section>
                             <h2 class="text-primary fw-bolder mb-4">Experience</h2>
                             <div class="card shadow border-0 rounded-4 mb-5">
@@ -181,11 +177,77 @@
                                                 <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-award"></i></div>
                                                 <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Certificates and Badges</span></h3>
                                             </div>
-                                            <ul class="mb-0">
-                                                <li>CCNA: Introduction to Networks Badge</li>
-                                                <li>Netacad: Ethical Hacking</li>
-                                                <li>Google Cloud Skills Badges</li>
-                                            </ul>
+                                            <div class="row row-cols-1 g-3">
+                                                <div class="col">
+                                                    <a class="card h-100 border-0 bg-light rounded-4 text-decoration-none" href="https://www.linkedin.com/in/jade-anthony-nobles-33a846352/" target="_blank">
+                                                        <div class="card-body p-3 d-flex align-items-center gap-3">
+                                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 flex-shrink-0"><i class="bi bi-router"></i></div>
+                                                            <div>
+                                                                <div class="fw-bolder text-dark">CCNA: Introduction to Networks</div>
+                                                                <div class="small text-muted">Badge uploaded on LinkedIn</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="card h-100 border-0 bg-light rounded-4 text-decoration-none" href="https://www.linkedin.com/in/jade-anthony-nobles-33a846352/" target="_blank">
+                                                        <div class="card-body p-3 d-flex align-items-center gap-3">
+                                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 flex-shrink-0"><i class="bi bi-shield-lock"></i></div>
+                                                            <div>
+                                                                <div class="fw-bolder text-dark">NetAcad: Ethical Hacking</div>
+                                                                <div class="small text-muted">Badge uploaded on LinkedIn</div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div id="googleCloudBadgesCarousel" class="carousel slide carousel-dark mt-4" data-bs-ride="carousel">
+                                                <div class="carousel-inner bg-light rounded-4 shadow-sm p-4">
+                                                    <div class="carousel-item active">
+                                                        <a class="text-decoration-none text-center d-block" href="https://www.credly.com/org/google-cloud/badge/google-cloud-computing-foundations-certificate" target="_blank">
+                                                            <img class="d-block mx-auto mb-3" src="https://images.credly.com/images/4dda8ae4-99ee-476c-bca3-6f0adbab42fe/image.png" alt="Google Cloud Computing Foundations Certificate badge" style="max-height: 180px; max-width: 100%; object-fit: contain;" />
+                                                            <div class="fw-bolder text-dark">Google Cloud Computing Foundations Certificate</div>
+                                                            <div class="small text-muted">Credly badge</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a class="text-decoration-none text-center d-block" href="https://www.credly.com/org/google-cloud/badge/implement-load-balancing-on-compute-engine-skill-ba" target="_blank">
+                                                            <img class="d-block mx-auto mb-3" src="https://images.credly.com/images/eea11cba-2a98-4bbe-bad2-447878dd34a2/image.png" alt="Implement Load Balancing on Compute Engine skill badge" style="max-height: 180px; max-width: 100%; object-fit: contain;" />
+                                                            <div class="fw-bolder text-dark">Implement Load Balancing on Compute Engine</div>
+                                                            <div class="small text-muted">Google Cloud skill badge</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a class="text-decoration-none text-center d-block" href="https://www.credly.com/org/google-cloud/badge/set-up-an-app-dev-environment-on-google-cloud-skill" target="_blank">
+                                                            <img class="d-block mx-auto mb-3" src="https://images.credly.com/images/42326d44-14ff-4eda-b9c5-7d8f12919253/image.png" alt="Set Up an App Dev Environment on Google Cloud skill badge" style="max-height: 180px; max-width: 100%; object-fit: contain;" />
+                                                            <div class="fw-bolder text-dark">Set Up an App Dev Environment on Google Cloud</div>
+                                                            <div class="small text-muted">Google Cloud skill badge</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a class="text-decoration-none text-center d-block" href="https://www.credly.com/org/google-cloud/badge/build-a-secure-google-cloud-network-skill-badge" target="_blank">
+                                                            <img class="d-block mx-auto mb-3" src="https://images.credly.com/images/e1131ae3-4a52-4af1-9801-b7853767cf79/image.png" alt="Build a Secure Google Cloud Network skill badge" style="max-height: 180px; max-width: 100%; object-fit: contain;" />
+                                                            <div class="fw-bolder text-dark">Build a Secure Google Cloud Network</div>
+                                                            <div class="small text-muted">Google Cloud skill badge</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a class="text-decoration-none text-center d-block" href="https://www.credly.com/org/google-cloud/badge/prepare-data-for-ml-apis-on-google-cloud-skill-badg" target="_blank">
+                                                            <img class="d-block mx-auto mb-3" src="https://images.credly.com/images/68756311-9319-4eeb-a2b7-76defc8dd8a2/image.png" alt="Prepare Data for ML APIs on Google Cloud skill badge" style="max-height: 180px; max-width: 100%; object-fit: contain;" />
+                                                            <div class="fw-bolder text-dark">Prepare Data for ML APIs on Google Cloud</div>
+                                                            <div class="small text-muted">Google Cloud skill badge</div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button" data-bs-target="#googleCloudBadgesCarousel" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button" data-bs-target="#googleCloudBadgesCarousel" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="d-flex align-items-center mb-4">
@@ -207,22 +269,15 @@
             </div>
         </main>
 
-        <footer class="bg-white py-4 mt-auto">
+        <footer class="bg-white py-4 mt-auto sticky-bottom shadow-sm">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0">Copyright &copy; Nobles Portfolio 2026</div></div>
-                    <div class="col-auto">
-                        <a class="small" href="../index.html">Home</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="projects.html">Projects</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="contact.html">Contact</a>
-                    </div>
                 </div>
             </div>
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../libs/assets/js/navbar.js"></script>
+        <script src="../libs/assets/js/navbar.js?v=3"></script>
     </body>
 </html>
