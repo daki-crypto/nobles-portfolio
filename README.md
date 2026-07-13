@@ -21,6 +21,15 @@ The practicum page documents the engagement at the City Government of Biñan. Th
 - Bootstrap
 - JavaScript
 
+## Certificate Assets
+
+Certificate files are grouped by issuer under:
+
+    libs/assets/certificates/
+    |-- cybersecurity-society-philippines/
+    |-- ethel-programming/
+    -- mapua-malayan-colleges-laguna/
+
 ## Local Development
 
 Place the project inside the XAMPP htdocs directory, start Apache, and open:
